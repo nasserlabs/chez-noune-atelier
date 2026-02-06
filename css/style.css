@@ -435,8 +435,6 @@ nav .container {
     background: radial-gradient(circle, var(--rose-doux) 0%, transparent 70%);
     opacity: 0;
     transition: opacity 0.4s;
-    
-    /* 🔑 LIGNE CRITIQUE */
     pointer-events: none;
 }
 
@@ -499,6 +497,8 @@ nav .container {
 }
 
 .product-button {
+    position: relative;
+    z-index: 2;
     padding: 0.8rem 1.8rem;
     background: linear-gradient(135deg, var(--vert-sauge), #9BC4B4);
     color: white;
