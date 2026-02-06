@@ -435,6 +435,9 @@ nav .container {
     background: radial-gradient(circle, var(--rose-doux) 0%, transparent 70%);
     opacity: 0;
     transition: opacity 0.4s;
+    
+    /* 🔑 LIGNE CRITIQUE */
+    pointer-events: none;
 }
 
 .product-card:hover::before {
