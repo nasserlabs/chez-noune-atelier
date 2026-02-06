@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Chez Noune - Nous serions ravis d'échanger avec vous">
+    <title>Contact — Chez Noune</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo/logo-chez-noune.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo/logo-chez-noune.svg" alt="Logo Chez Noune" class="logo-img">
+                Chez Noune
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="visions.html">Notre Vision</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Restons en contact</h1>
+            <p class="page-subtitle">Nous serions ravis d'échanger avec vous ! 💌</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Retrouvez-nous</h2>
+                    
+                    <div class="social-links-large">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link instagram">
+                            <img src="assets/icons/instagram.svg" alt="Instagram">
+                            <div>
+                                <h3>Instagram</h3>
+                                <p>@cheznoune</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link facebook">
+                            <img src="assets/icons/facebook.svg" alt="Facebook">
+                            <div>
+                                <h3>Facebook</h3>
+                                <p>/cheznoune</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://etsy.com" target="_blank" rel="noopener" class="social-link etsy">
+                            <img src="assets/icons/etsy.svg" alt="Etsy">
+                            <div>
+                                <h3>Boutique Etsy</h3>
+                                <p>Chez Noune Shop</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="email-box">
+                        <h3>Par email</h3>
+                        <a href="mailto:contact@cheznoune.fr">contact@cheznoune.fr</a>
+                        <p>Nous répondons généralement sous 24-48h</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>Questions fréquentes</h3>
+                        <ul>
+                            <li>✨ Délais de livraison : 5-7 jours ouvrés</li>
+                            <li>💝 Emballage cadeau disponible</li>
+                            <li>🎨 Commandes personnalisées sur demande</li>
+                            <li>🌍 Expédition en France et Europe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Envoyez-nous un message</h2>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Votre nom <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Marie Dupont">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Votre email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="marie@exemple.fr">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <select id="subject" name="subject">
+                                <option value="info">Demande d'information</option>
+                                <option value="commande">Question sur une commande</option>
+                                <option value="personnalise">Commande personnalisée</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message <span class="required">*</span></label>
+                            <textarea id="message" name="message" required placeholder="Bonjour Noune, j'adore vos créations..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Envoyer le message</span>
+                            <span class="button-icon">✨</span>
+                        </button>
+
+                        <p class="form-note">Les champs marqués d'un <span class="required">*</span> sont obligatoires</p>
+                    </form>
+
+                    <div class="success-message" id="successMessage">
+                        <div class="success-icon">💝</div>
+                        <h3>Message envoyé avec succès !</h3>
+                        <p>Merci pour votre message. Nous vous répondrons très bientôt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <h2>Restez informé·e de nos nouveautés</h2>
+                <p>Inscrivez-vous à notre newsletter pour découvrir en avant-première nos nouvelles créations</p>
+                
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <button type="submit">S'inscrire</button>
+                </form>
+                
+                <p class="newsletter-note">Pas de spam, juste de jolies choses ✨</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">Chez Noune</a>
+                    <p>Des petits bonheurs faits main ✨</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Produits</a></li>
+                        <li><a href="visions.html">Notre Vision</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons-footer">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                            <img src="assets/icons/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                            <img src="assets/icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://etsy.com" target="_blank" rel="noopener" aria-label="Etsy">
+                            <img src="assets/icons/etsy.svg" alt="Etsy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chez Noune. Tous droits réservés. Fait avec 💝</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
