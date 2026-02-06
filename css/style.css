@@ -1,11 +1,7 @@
 .product-button {
     display: inline-block;
     cursor: pointer;
-    padding: 0.8rem 1.8rem;
-    background: linear-gradient(135deg, var(--vert-sauge), #9BC4B4);
-    color: white;
-    border-radius: 25px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    font-size: 0.95rem;
 }
+/* Add your previous CSS styles here */
+
+/* Additional styles can be added as needed */
